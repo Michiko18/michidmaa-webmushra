@@ -1,1 +1,1 @@
-web: C:\xampp\htdocs\webMUSHRA-master 
+web: http://localhost/webMushra-master/
