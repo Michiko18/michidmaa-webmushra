@@ -1,1 +1,1 @@
-web: C:\xampp\htdocs\webMUSHRA-master
+web: index.php
