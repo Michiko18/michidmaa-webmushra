@@ -1,1 +1,1 @@
-web: npm start
+web: C:\xampp\htdocs\webMUSHRA-master
