@@ -1,1 +1,0 @@
-web: http://localhost/webMushra-master/
