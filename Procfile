@@ -1,0 +1,1 @@
+web: gunicorn Webmmushra-master:app --preload
