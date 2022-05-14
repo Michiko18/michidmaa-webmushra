@@ -1,1 +1,1 @@
-web: gunicorn Webmmushra-master:app --preload
+web: npm start
