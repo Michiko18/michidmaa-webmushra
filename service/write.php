@@ -68,7 +68,6 @@ array_push($mushraCsvData, $input);
 		array_push($results, $trial->id, $response->stimulus, $response->score, $response->time, $response->comment); 
 	  
 	  	array_push($mushraCsvData, $results);
-	  	
 	  
 	  } 
 	    /*array_push($mushraCsvData, array($session->testId, $session->participant->email, $session->participant->age, $session->participant->gender, $trial->id, $response->stimulus, $response->score, $response->time, $response->comment));
@@ -76,7 +75,6 @@ array_push($mushraCsvData, $input);
 		 */     
   }
 }
-		
 if ($write_mushra) {
 	$filename = $filepathPrefix."mushra".$filepathPostfix;
 	$isFile = is_file($filename);
@@ -90,7 +88,7 @@ if ($write_mushra) {
 	}
 	fclose($fp);
 }
-//echo "<script>console.log(`" . json_encode($mushraCsvData) . "`);</script>";
+//echo "<script>console.log(`" .$result_rows. "`);</script>";
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->Mailer = "smtp";
@@ -102,10 +100,12 @@ $mail->Host       = "smtp.gmail.com";
 $mail->Username   = "michidmaa0122@gmail.com";
 $mail->Password   = "Michi_0122";
 $mail->IsHTML(true);
-$mail->AddAddress("Munkhbayr.g0601@gmail.com", "Munkhbayr");
+$mail->AddAddress("michidmaa0122@gmail.com", "Michidmaa");
 $mail->SetFrom("michidmaa0122@gmail.com", "Michidmaa");
 $mail->Subject = "web mushra";
 $content = "Success. You can.";
+$result_rows = json_encode($mushraCsvData);
+$content .= $result_rows;
 $mail->MsgHTML($content); 
 if(!$mail->Send()) {
   echo "Error while sending Email.";
