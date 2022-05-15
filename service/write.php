@@ -5,8 +5,11 @@
 This source code is protected by copyright law and international treaties. This source code is made available to You subject to the terms and conditions of the Software License for the webMUSHRA.js Software. Said terms and conditions have been made available to You prior to Your download of this source code. By downloading this source code You agree to be bound by the above mentionend terms and conditions, which can also be found here: https://www.audiolabs-erlangen.de/resources/webMUSHRA. Any unauthorised use of this source code may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under law. 
 
 **************************************************************************/
-
-
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+require '../PHPMailer-master/src/Exception.php';
+require '../PHPMailer-master/src/PHPMailer.php';
+require '../PHPMailer-master/src/SMTP.php';
 
 function sanitize($string = '', $is_filename = FALSE)
 {
@@ -87,7 +90,29 @@ if ($write_mushra) {
 	}
 	fclose($fp);
 }
-
+//echo "<script>console.log(`" . json_encode($mushraCsvData) . "`);</script>";
+$mail = new PHPMailer();
+$mail->IsSMTP();
+$mail->Mailer = "smtp";
+$mail->SMTPDebug  = 1;  
+$mail->SMTPAuth   = TRUE;
+$mail->SMTPSecure = "tls";
+$mail->Port       = 587;
+$mail->Host       = "smtp.gmail.com";
+$mail->Username   = "michidmaa0122@gmail.com";
+$mail->Password   = "Michi_0122";
+$mail->IsHTML(true);
+$mail->AddAddress("Munkhbayr.g0601@gmail.com", "Munkhbayr");
+$mail->SetFrom("michidmaa0122@gmail.com", "Michidmaa");
+$mail->Subject = "web mushra";
+$content = "Success. You can.";
+$mail->MsgHTML($content); 
+if(!$mail->Send()) {
+  echo "Error while sending Email.";
+  var_dump($mail);
+} else {
+  echo "Email sent successfully";
+}
 // paired comparison
 
 $write_pc = false;
