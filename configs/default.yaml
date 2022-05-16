@@ -142,7 +142,7 @@ pages:
       stimuli:
           C1: configs/resources/audio/RU/15min/newGT_phoneme_14_gen.wav
           C2: configs/resources/audio/RU/30min/newGT_phoneme_14_gen.wav
-          C3: configs/resources/audio/RU/1h/newGT_phoneme_14_gen.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_14_gen2.wav
     - type: mushra
       id: trial_random_12
       name: Орос + Монгол 15мин, 30мин, 60мин
@@ -153,8 +153,8 @@ pages:
       createAnchor70: false
       stimuli:
           C1: configs/resources/audio/RU/15min/newGT_phoneme_27_gen.wav
-          C2: configs/resources/audio/RU/30min/newGT_phoneme_27_gen.wav
-          C3: configs/resources/audio/RU/1h/newGT_phoneme_27_gen.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_27_gen2.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_27_gen2.wav
     - type: mushra
       id: trial_random_13
       name: Орос + Монгол 15мин, 30мин, 60мин
