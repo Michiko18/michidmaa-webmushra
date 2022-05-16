@@ -220,11 +220,11 @@ pages:
       name: Англи, Орос, Япон + Монгол 30мин
       content: Шинжлэх ухааны академийн тэргүүн дэд ерөнхийлөгч, шинжлэх ухааны доктор, профессор академич Чулуунбаатарыг сайдаар томилохыг дэмжлээ.
       enableLooping: true 
-      reference: configs/resources/audio/GT/s13-MTG.wav
+      reference: configs/resources/audio/GT/s13-MTG2.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/EN/30min/newGT_phoneme_13_ge2.wav
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_13_gen2.wav
           C2: configs/resources/audio/RU/30min/newGT_phoneme_13_gen2.wav
           C3: configs/resources/audio/JP/30min/newGT_phoneme_13_gen.wav
     - type: mushra
@@ -260,7 +260,7 @@ pages:
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/JP/15min/newGT_phoneme_29_gen.wav
+          C1: configs/resources/audio/JP/15min/newGT_phoneme_29_gen2.wav
           C2: configs/resources/audio/RU/15min/newGT_phoneme_29_gen2.wav
           C3: configs/resources/audio/EN/15min/newGT_phoneme_29_gen.wav
     - type: mushra
@@ -280,13 +280,13 @@ pages:
       name: Англи, Орос, Япон + Монгол 15мин
       content: Шинжлэх ухааны академийн тэргүүн дэд ерөнхийлөгч, шинжлэх ухааны доктор, профессор академич Чулуунбаатарыг сайдаар томилохыг дэмжлээ
       enableLooping: true 
-      reference: configs/resources/audio/GT/s13-MTG.wav
+      reference: configs/resources/audio/GT/s13-MTG2.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/audio/JP/15min/newGT_phoneme_13_gen2.wav
-          C2: configs/resources/audio/RU/15min/newGT_phoneme_13_gen.wav
-          C3: configs/resources/audio/EN/15min/newGT_phoneme_13_gen.wav
+          C2: configs/resources/audio/RU/15min/newGT_phoneme_13_gen2.wav
+          C3: configs/resources/audio/EN/15min/newGT_phoneme_13_gen2.wav
     - type: mushra
       id: trial_random_24
       name: Англи, Орос, Япон + Монгол 15мин
@@ -296,20 +296,20 @@ pages:
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/JP/15min/newGT_phoneme_30_gen.wav
-          C2: configs/resources/audio/RU/15min/newGT_phoneme_30_gen.wav
+          C1: configs/resources/audio/JP/15min/newGT_phoneme_30_gen2.wav
+          C2: configs/resources/audio/RU/15min/newGT_phoneme_30_gen2.wav
           C3: configs/resources/audio/EN/15min/newGT_phoneme_30_gen.wav
     - type: mushra
       id: trial_random_25
       name: Англи, Орос, Япон + Монгол 15мин
       content: Хэрэглэгч гадаад хэргийн яамны интернетэд байршуулсан веб хуудсанд орж, файл татаж авах бүрд энэ үйлдлийн талаарх мэдээлэл хадгалагдана.
       enableLooping: true 
-      reference: configs/resources/audio/GT/s10-MTG.wav
+      reference: configs/resources/audio/GT/s10-MTG2.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/audio/JP/15min/newGT_phoneme_10_gen.wav
-          C2: configs/resources/audio/RU/15min/newGT_phoneme_10_gen.wav
+          C2: configs/resources/audio/RU/15min/newGT_phoneme_10_gen2.wav
           C3: configs/resources/audio/EN/15min/newGT_phoneme_10_gen.wav
     - type: mushra
       id: trial_random_26
@@ -321,8 +321,8 @@ pages:
       createAnchor70: false
       stimuli:
           C1: configs/resources/audio/EN/1h/newGT_phoneme_29_gen.wav
-          C2: configs/resources/audio/JP/1h/newGT_phoneme_29_gen.wav
-          C3: configs/resources/audio/RU/1h/newGT_phoneme_29_gen.wav
+          C2: configs/resources/audio/JP/1h/newGT_phoneme_29_gen2.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_29_gen2.wav
     - type: mushra
       id: trial_random_27
       name: Англи, Орос, Япон + Монгол 60мин
@@ -340,13 +340,13 @@ pages:
       name: Англи, Орос, Япон + Монгол 60мин
       content: Шинжлэх ухааны академийн тэргүүн дэд ерөнхийлөгч, шинжлэх ухааны доктор, профессор академич Чулуунбаатарыг сайдаар томилохыг дэмжлээ.
       enableLooping: true 
-      reference: configs/resources/audio/GT/s13-MTG.wav
+      reference: configs/resources/audio/GT/s13-MTG2.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/EN/1h/newGT_phoneme_13_gen.wav
+          C1: configs/resources/audio/EN/1h/newGT_phoneme_13_gen2.wav
           C2: configs/resources/audio/JP/1h/newGT_phoneme_13_gen2.wav
-          C3: configs/resources/audio/RU/1h/newGT_phoneme_13_gen.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_13_gen2.wav
     - type: mushra
       id: trial_random_29
       name: Англи, Орос, Япон + Монгол 60мин
@@ -358,7 +358,7 @@ pages:
       stimuli:
           C1: configs/resources/audio/EN/1h/newGT_phoneme_14_gen.wav
           C2: configs/resources/audio/JP/1h/newGT_phoneme_14_gen.wav
-          C3: configs/resources/audio/RU/1h/newGT_phoneme_14_gen.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_14_gen2.wav
     - type: mushra
       id: trial_random_30
       name: Англи, Орос, Япон + Монгол 60мин
@@ -369,8 +369,8 @@ pages:
       createAnchor70: false
       stimuli:
           C1: configs/resources/audio/EN/1h/newGT_phoneme_28_gen.wav
-          C2: configs/resources/audio/JP/1h/newGT_phoneme_28_gen.wav
-          C3: configs/resources/audio/RU/1h/newGT_phoneme_28_gen.wav
+          C2: configs/resources/audio/JP/1h/newGT_phoneme_28_gen2.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_28_gen2.wav
     - type: finish
       name: Thank you
       content: Thank you for attending!
