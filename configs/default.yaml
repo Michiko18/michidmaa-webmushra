@@ -212,8 +212,8 @@ pages:
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/EN/30min/newGT_phoneme_11_gen.wav
-          C2: configs/resources/audio/RU/30min/newGT_phoneme_11_gen.wav
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_11_gen2.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_11_gen2.wav
           C3: configs/resources/audio/JP/30min/newGT_phoneme_11_gen.wav
     - type: mushra
       id: trial_random_18
@@ -224,8 +224,8 @@ pages:
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/EN/30min/newGT_phoneme_13_gen.wav
-          C2: configs/resources/audio/RU/30min/newGT_phoneme_13_gen.wav
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_13_ge2.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_13_gen2.wav
           C3: configs/resources/audio/JP/30min/newGT_phoneme_13_gen.wav
     - type: mushra
       id: trial_random_19
@@ -236,8 +236,8 @@ pages:
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/EN/30min/newGT_phoneme_14_gen.wav
-          C2: configs/resources/audio/RU/30min/newGT_phoneme_14_gen.wav
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_14_gen2.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_14_gen2.wav
           C3: configs/resources/audio/JP/30min/newGT_phoneme_14_gen.wav
     - type: mushra
       id: trial_random_20
@@ -248,8 +248,8 @@ pages:
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/EN/30min/newGT_phoneme_28_gen.wav
-          C2: configs/resources/audio/RU/30min/newGT_phoneme_28_gen.wav
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_28_gen2.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_28_gen2.wav
           C3: configs/resources/audio/JP/30min/newGT_phoneme_28_gen.wav
     - type: mushra
       id: trial_random_21
