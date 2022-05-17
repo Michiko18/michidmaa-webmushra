@@ -21,7 +21,6 @@ function sanitize($string = '', $is_filename = FALSE)
 
 
 $sessionParam = null;
-
 //get_magic_quotes_gpc() was removed in PHP 8
 if(version_compare(PHP_VERSION, '8.0.0', '<') and get_magic_quotes_gpc()){
 	$sessionParam = stripslashes($_POST['sessionJSON']);
@@ -31,7 +30,6 @@ if(version_compare(PHP_VERSION, '8.0.0', '<') and get_magic_quotes_gpc()){
 
 
 $session = json_decode($sessionParam);
-
 
 $filepathPrefix = "../results/".sanitize($string = $session->testId, $is_filename =FALSE)."/";
 $filepathPostfix = ".csv";
@@ -83,12 +81,13 @@ if ($write_mushra) {
 		if ($isFile) {	    	
 			$isFile = false;
 		} else {
+		   echo "<script>Console.log(`" .$row. "`);</script>";
 		   fputcsv($fp, $row);
 		}
 	}
 	fclose($fp);
 }
-//echo "<script>console.log(`" .$result_rows. "`);</script>";
+echo "<script>Console.log(`" .$result_rows. "`);</script>";
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->Mailer = "smtp";
@@ -107,6 +106,7 @@ $content = "Success. You can.";
 $result_rows = json_encode($mushraCsvData);
 $content .= $result_rows;
 $mail->MsgHTML($content); 
+echo "<script>console.log('Success');</script>";
 if(!$mail->Send()) {
   echo "Error while sending Email.";
   var_dump($mail);
