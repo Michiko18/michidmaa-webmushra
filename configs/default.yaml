@@ -23,6 +23,354 @@ pages:
           C1: configs/resources/audio/EN/30min/newGT_phoneme_11_gen.wav
           C2: configs/resources/audio/EN/15min/newGT_phoneme_11_gen.wav
           C3: configs/resources/audio/EN/1h/newGT_phoneme_11_gen.wav
+    - type: mushra
+      id: trial_random_2
+      name: Англи  + Монгол 15мин, 30мин, 60мин
+      content: Гэр хорооллын айл өрхүүдийн саналд тулгуурлан, тэдний хүсэлтийг төсөлдөө багтааж, хоёр талаас харилцан хариуцлага хүлээж байгаа нь энэ хөтөлбөрийн онцлог ажээ.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S12-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_12_gen.wav
+          C2: configs/resources/audio/EN/15min/newGT_phoneme_12_gen.wav
+          C3: configs/resources/audio/EN/1h/newGT_phoneme_12_gen.wav
+    - type: mushra
+      id: trial_random_3
+      name: Англи  + Монгол 15мин, 30мин, 60мин
+      content: Үүнтэй холбоотойгоор аяллын давтамж, цагийн хувиарыг урьдчилан тооцож, зорчигч тээврийн үйл ажиллагаанд зохицуулалт хийнэ.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S6-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_6_gen.wav
+          C2: configs/resources/audio/EN/15min/newGT_phoneme_6_gen.wav
+          C3: configs/resources/audio/EN/1h/newGT_phoneme_6_gen.wav
+    - type: mushra
+      id: trial_random_4
+      name: Англи  + Монгол 15мин, 30мин, 60мин
+      content: Хөгжлийн бэрхшээлтэй хүүхдийн сурах орчинг бүрдүүлсэн жишиг сургууль ашиглалтад орлоо.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S24-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_24_gen.wav
+          C2: configs/resources/audio/EN/15min/newGT_phoneme_24_gen.wav
+          C3: configs/resources/audio/EN/1h/newGT_phoneme_24_gen.wav
+    - type: mushra
+      id: trial_random_5
+      name: Англи  + Монгол 15мин, 30мин, 60мин
+      content: Нийслэлийн захирагчийн ажлын албанаас өгсөн чиглэлийн дагуу Чингэлтэй дүүрэгт байрлах Хүчит шонхор зах амарсан байна.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S16-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_16_gen.wav
+          C2: configs/resources/audio/EN/15min/newGT_phoneme_16_gen.wav
+          C3: configs/resources/audio/EN/1h/newGT_phoneme_16_gen.wav 
+    - type: mushra
+      id: trial_random_6
+      name: Япон  + Монгол 15мин, 30мин, 60мин
+      content: Гэр хорооллын айл өрхүүдийн саналд тулгуурлан, тэдний хүсэлтийг төсөлдөө багтааж, хоёр талаас харилцан хариуцлага хүлээж байгаа нь энэ хөтөлбөрийн онцлог ажээ.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S12-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/JP/1h/newGT_phoneme_12_gen2.wav
+          C2: configs/resources/audio/JP/30min/newGT_phoneme_12_gen.wav
+          C3: configs/resources/audio/JP/15min/newGT_phoneme_12_gen.wav
+    - type: mushra
+      id: trial_random_7
+      name: Япон  + Монгол 15мин, 30мин, 60мин
+      content: Эхний аргумент нь конвенцоор гүйцэтгэгдэж байгаа файлтай холбоотой файлын нэрийг зааж өгөх ёстой.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S11-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/JP/1h/newGT_phoneme_11_gen2.wav
+          C2: configs/resources/audio/JP/30min/newGT_phoneme_11_gen.wav
+          C3: configs/resources/audio/JP/15min/newGT_phoneme_11_gen.wav
+    - type: mushra
+      id: trial_random_8
+      name: Япон  + Монгол 15мин, 30мин, 60мин
+      content: Хэлэлцүүлгийн дараа баяр наадмын тухай хуулийг шинэчлэн найруулсан хуулийн төсөл өргөн барина гэлээ.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S19-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/JP/1h/newGT_phoneme_19_gen2.wav
+          C2: configs/resources/audio/JP/30min/newGT_phoneme_19_gen.wav
+          C3: configs/resources/audio/JP/15min/newGT_phoneme_19_gen.wav
+    - type: mushra
+      id: trial_random_9
+      name: Япон  + Монгол 15мин, 30мин, 60мин
+      content: Өнөө маргаашдаа нутгийн зүүн хагаст салхи шуургатай, хүйтэн байхыг онцгойлон анхааруулж байна.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S8-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/JP/1h/newGT_phoneme_8_gen2.wav
+          C2: configs/resources/audio/JP/30min/newGT_phoneme_8_gen2.wav
+          C3: configs/resources/audio/JP/15min/newGT_phoneme_8_gen.wav
+    - type: mushra
+      id: trial_random_10
+      name: Япон  + Монгол 15мин, 30мин, 60мин
+      content: Шинжлэх ухааны академийн тэргүүн дэд ерөнхийлөгч, шинжлэх ухааны доктор, профессор академич Чулуунбаатарыг сайдаар томилохыг дэмжлээ.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/s13-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/JP/1h/newGT_phoneme_13_gen2.wav
+          C2: configs/resources/audio/JP/30min/newGT_phoneme_13_gen.wav
+          C3: configs/resources/audio/JP/15min/newGT_phoneme_13_gen2.wav
+    - type: mushra
+      id: trial_random_11
+      name: Орос + Монгол 15мин, 30мин, 60мин
+      content: Эрдэнэт үйлдвэрийн ил уурхайн хүнд даацын машин механизмын парк шинэчлэл сүүлийн гурван жилд эрчимжсэн.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S14-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/RU/15min/newGT_phoneme_14_gen2.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_14_gen.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_14_gen.wav
+    - type: mushra
+      id: trial_random_12
+      name: Орос + Монгол 15мин, 30мин, 60мин
+      content: Энэ үеэр байнгын хорооны гишүүд ажлын хэсгээс асуулт асууж, хариулт авлаа. 
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S27-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/RU/15min/newGT_phoneme_27_gen2.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_27_gen.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_27_gen2.wav
+    - type: mushra
+      id: trial_random_13
+      name: Орос + Монгол 15мин, 30мин, 60мин
+      content: Эхний аргумент нь конвенцоор гүйцэтгэгдэж байгаа файлтай холбоотой файлын нэрийг зааж өгөх ёстой.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S11-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/RU/15min/newGT_phoneme_11_gen2.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_11_gen.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_11_gen2.wav
+    - type: mushra
+      id: trial_random_14
+      name: Орос + Монгол 15мин, 30мин, 60мин
+      content: Цаашид харилцаа, хамтын ажиллагааг шинэ шатанд гаргахад дараах санаачлалыг гаргаж байна гэв.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S29-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/RU/15min/newGT_phoneme_29_gen2.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_29_gen2.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_29_gen.wav
+    - type: mushra
+      id: trial_random_15
+      name: Орос + Монгол 15мин, 30мин, 60мин
+      content: Хөгжлийн бэрхшээлтэй хүүхдийн сурах орчинг бүрдүүлсэн жишиг сургууль ашиглалтад орлоо.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S24-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/RU/15min/newGT_phoneme_24_gen.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_24_gen.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_24_gen.wav
+    - type: mushra
+      id: trial_random_16
+      name: Англи, Орос, Япон + Монгол 30мин
+      content: Цаашид харилцаа, хамтын ажиллагааг шинэ шатанд гаргахад дараах санаачлалыг гаргаж байна гэв.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S29-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_29_gen.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_29_gen2.wav
+          C3: configs/resources/audio/JP/30min/newGT_phoneme_29_gen2.wav
+    - type: mushra
+      id: trial_random_17
+      name: Англи, Орос, Япон + Монгол 30мин
+      content: Эхний аргумент нь конвенцоор гүйцэтгэгдэж байгаа файлтай холбоотой файлын нэрийг зааж өгөх ёстой.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S11-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_11_gen2.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_11_gen2.wav
+          C3: configs/resources/audio/JP/30min/newGT_phoneme_11_gen.wav
+    - type: mushra
+      id: trial_random_18
+      name: Англи, Орос, Япон + Монгол 30мин
+      content: Шинжлэх ухааны академийн тэргүүн дэд ерөнхийлөгч, шинжлэх ухааны доктор, профессор академич Чулуунбаатарыг сайдаар томилохыг дэмжлээ.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/s13-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_13_gen2.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_13_gen2.wav
+          C3: configs/resources/audio/JP/30min/newGT_phoneme_13_gen.wav
+    - type: mushra
+      id: trial_random_19
+      name: Англи, Орос, Япон + Монгол 30мин
+      content: Эрдэнэт үйлдвэрийн ил уурхайн хүнд даацын машин механизмын парк шинэчлэл сүүлийн гурван жилд эрчимжсэн.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S14-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_14_gen2.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_14_gen2.wav
+          C3: configs/resources/audio/JP/30min/newGT_phoneme_14_gen.wav
+    - type: mushra
+      id: trial_random_20
+      name: Англи, Орос, Япон + Монгол 30мин
+      content: Хот нийтийн аж ахуйн найдвартай байдлыг бий болгож, засвар шинэчлэлийг хийхийн тулд санхүүгийн олон эх үүсгэврийг судалж байна гэв.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S28-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_28_gen2.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_28_gen2.wav
+          C3: configs/resources/audio/JP/30min/newGT_phoneme_28_gen.wav
+    - type: mushra
+      id: trial_random_21
+      name: Англи, Орос, Япон + Монгол 15мин
+      content: Цаашид харилцаа, хамтын ажиллагааг шинэ шатанд гаргахад дараах санаачлалыг гаргаж байна гэв.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S29-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/JP/15min/newGT_phoneme_29_gen2.wav
+          C2: configs/resources/audio/RU/15min/newGT_phoneme_29_gen2.wav
+          C3: configs/resources/audio/EN/15min/newGT_phoneme_29_gen.wav
+    - type: mushra
+      id: trial_random_22
+      name: Англи, Орос, Япон + Монгол 15мин
+      content: Эхний аргумент нь конвенцоор гүйцэтгэгдэж байгаа файлтай холбоотой файлын нэрийг зааж өгөх ёстой.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S11-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/JP/15min/newGT_phoneme_11_gen.wav
+          C2: configs/resources/audio/RU/15min/newGT_phoneme_11_gen2.wav
+          C3: configs/resources/audio/EN/15min/newGT_phoneme_11_gen.wav
+    - type: mushra
+      id: trial_random_23
+      name: Англи, Орос, Япон + Монгол 15мин
+      content: Шинжлэх ухааны академийн тэргүүн дэд ерөнхийлөгч, шинжлэх ухааны доктор, профессор академич Чулуунбаатарыг сайдаар томилохыг дэмжлээ
+      enableLooping: true 
+      reference: configs/resources/audio/GT/s13-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/JP/15min/newGT_phoneme_13_gen2.wav
+          C2: configs/resources/audio/RU/15min/newGT_phoneme_13_gen2.wav
+          C3: configs/resources/audio/EN/15min/newGT_phoneme_13_gen2.wav
+    - type: mushra
+      id: trial_random_24
+      name: Англи, Орос, Япон + Монгол 15мин
+      content: Суурь судалгаа хийх, татаж гаргахад шаардагдах хөрөнгийг засгийн газрын нөөц сангаас гаргана. 
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S30-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/JP/15min/newGT_phoneme_30_gen2.wav
+          C2: configs/resources/audio/RU/15min/newGT_phoneme_30_gen2.wav
+          C3: configs/resources/audio/EN/15min/newGT_phoneme_30_gen.wav
+    - type: mushra
+      id: trial_random_25
+      name: Англи, Орос, Япон + Монгол 15мин
+      content: Хэрэглэгч гадаад хэргийн яамны интернетэд байршуулсан веб хуудсанд орж, файл татаж авах бүрд энэ үйлдлийн талаарх мэдээлэл хадгалагдана.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/s10-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/JP/15min/newGT_phoneme_10_gen.wav
+          C2: configs/resources/audio/RU/15min/newGT_phoneme_10_gen2.wav
+          C3: configs/resources/audio/EN/15min/newGT_phoneme_10_gen.wav
+    - type: mushra
+      id: trial_random_26
+      name: Англи, Орос, Япон + Монгол 60мин
+      content: Цаашид харилцаа, хамтын ажиллагааг шинэ шатанд гаргахад дараах санаачлалыг гаргаж байна гэв.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S29-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/1h/newGT_phoneme_29_gen.wav
+          C2: configs/resources/audio/JP/1h/newGT_phoneme_29_gen2.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_29_gen2.wav
+    - type: mushra
+      id: trial_random_27
+      name: Англи, Орос, Япон + Монгол 60мин
+      content: Эхний аргумент нь конвенцоор гүйцэтгэгдэж байгаа файлтай холбоотой файлын нэрийг зааж өгөх ёстой.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S11-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/1h/newGT_phoneme_11_gen.wav
+          C2: configs/resources/audio/JP/1h/newGT_phoneme_11_gen2.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_11_gen2.wav
+    - type: mushra
+      id: trial_random_28
+      name: Англи, Орос, Япон + Монгол 60мин
+      content: Шинжлэх ухааны академийн тэргүүн дэд ерөнхийлөгч, шинжлэх ухааны доктор, профессор академич Чулуунбаатарыг сайдаар томилохыг дэмжлээ.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/s13-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/1h/newGT_phoneme_13_gen2.wav
+          C2: configs/resources/audio/JP/1h/newGT_phoneme_13_gen2.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_13_gen2.wav
+    - type: mushra
+      id: trial_random_29
+      name: Англи, Орос, Япон + Монгол 60мин
+      content: Эрдэнэт үйлдвэрийн ил уурхайн хүнд даацын машин механизмын парк шинэчлэл сүүлийн гурван жилд эрчимжсэн.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S14-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/1h/newGT_phoneme_14_gen.wav
+          C2: configs/resources/audio/JP/1h/newGT_phoneme_14_gen.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_14_gen2.wav
+    - type: mushra
+      id: trial_random_30
+      name: Англи, Орос, Япон + Монгол 60мин
+      content: Хот нийтийн аж ахуйн найдвартай байдлыг бий болгож, засвар шинэчлэлийг хийхийн тулд санхүүгийн олон эх үүсгэврийг судалж байна гэв.
+      enableLooping: true 
+      reference: configs/resources/audio/GT/S28-MTG2.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/EN/1h/newGT_phoneme_28_gen.wav
+          C2: configs/resources/audio/JP/1h/newGT_phoneme_28_gen2.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_28_gen2.wav
     - type: finish
       name: Thank you
       content: Thank you for attending!
