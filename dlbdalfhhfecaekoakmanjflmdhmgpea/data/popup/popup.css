@@ -1,0 +1,158 @@
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  color: #555;
+  width: 500px;
+  height: 282px;
+  cursor: default;
+  font-size: 12px;
+  font-family: arial, sans-serif;
+}
+
+table {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 12px;
+  font-family: arial, sans-serif;
+}
+
+.toolbar {
+  right: 2px;
+  bottom: 2px;
+  position: fixed;
+}
+
+.toolbar table {
+  border-spacing: 1px;
+}
+
+.toolbar table tr td {
+  border: 0;
+  padding: 0;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  transition: 300ms ease all;
+}
+
+.toolbar table tr td:hover {
+  background-color: rgba(0,0,0,0.05);
+}
+
+.toolbar svg {
+  fill: #777;
+  pointer-events: none;
+  vertical-align: middle;
+}
+
+.container {
+  border: 0;
+  border-bottom: solid 1px rgba(0,0,0,0.1);
+}
+
+.container table {
+  border-spacing: 5px 10px;
+}
+
+.container table tr td {
+  padding: 0;
+}
+
+.container table tr td input {
+  padding: 0;
+  width: 100%;
+  color: #555;
+  height: 38px;
+  outline: none;
+  font-size: 12px;
+  overflow: hidden;
+  text-indent: 10px;
+  white-space: nowrap;
+  font-family: monospace;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  border: solid 1px #d2d2d2;
+}
+
+.container .button {
+  width: 50%;
+  height: 38px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  background-color: #eaeaea;
+  transition: 300ms ease all;
+}
+
+.container .button[error] {
+  color: #ff3636;
+}
+
+.container .button:hover {
+  background-color: #d2d2d2;
+}
+
+.container .title {
+  color: #5a9cff;
+  user-select: none;
+  text-align: center;
+}
+
+.container .spacer {
+  width: 1px;
+  padding: 0;
+  min-width: 1px;
+  max-width: 1px;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.container .info {
+  color: #555;
+  height: 38px;
+  padding: 0 10px;
+  font-size: 12px;
+  text-align: center;
+  font-family: monospace;
+  border: solid 1px #5a9cff;
+}
+
+.container .progress {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  height: 12px;
+  outline: none;
+  margin-top: 16px;
+  background: #f7f7f7;
+}
+
+.container .progress::-moz-progress-bar {background: #5a9cff}
+.container .progress::-webkit-progress-value {background: #5a9cff}
+.container .progress::-webkit-progress-bar {background: transparent}
+
+.container .status {
+  color: #555;
+  width: 100%;
+  height: 32px;
+  font-size: 12px;
+  text-indent: 10px;
+  line-height: 32px;
+  display: inline-block;
+  background-color: #f7f7f7;
+  font-family: arial,sans-serif;
+}
+
+.logo {
+  left: 0;
+  width: 42px;
+  bottom: 5px;
+  height: 32px;
+  position: fixed;
+  background: url('../icons/128.png') no-repeat center center;
+  background-size: 32px;
+}
