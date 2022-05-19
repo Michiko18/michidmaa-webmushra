@@ -50,7 +50,7 @@ pages:
     - type: mushra
       id: trial_random_4
       name: I. Англи  + Монгол 15мин, 30мин, 60мин
-      content: 4. Мэргэжлийн боловсон хүчнээс гадна сайн дурын ажилтнуудын мэдлэг туршлага оролцоо ихээхэн хувь нэмэр оруулах юм. 
+      content: 4. Мэргэжлийн боловсон хүчнээс гадна сайн дурын ажилтнуудын мэдлэг туршлага оролцоо ихээхэн чухал хувь нэмэр оруулах юм. 
       enableLooping: true 
       reference: configs/resources/audio/GT/S9-MTG2.wav
       createAnchor35: false
@@ -94,7 +94,7 @@ pages:
       stimuli:
           C1: configs/resources/audio/JP/30min/newGT_phoneme_12_gen.wav
           C2: configs/resources/audio/JP/15min/newGT_phoneme_12_gen.wav
-          C3: configs/resources/audio/JP/1h/newGT_phoneme_12_gen.wav
+          C3: configs/resources/audio/JP/1h/newGT_phoneme_12_gen2.wav
     - type: mushra
       id: trial_random_8
       name: I. Япон  + Монгол 15мин, 30мин, 60мин
@@ -110,27 +110,27 @@ pages:
     - type: mushra
       id: trial_random_9
       name: I. Япон  + Монгол 15мин, 30мин, 60мин
-      content: 9. Мэргэжлийн боловсон хүчнээс гадна сайн дурын ажилтнуудын мэдлэг туршлага оролцоо ихээхэн хувь нэмэр оруулах юм. 
+      content: 9. Мэргэжлийн боловсон хүчнээс гадна сайн дурын ажилтнуудын мэдлэг туршлага оролцоо ихээхэн чухал  хувь нэмэр оруулах юм. 
       enableLooping: true 
-      reference: configs/resources/audio/GT/S9-MTG.wav
+      reference: configs/resources/audio/GT/S9-MTG2.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/audio/JP/30min/newGT_phoneme_9_gen.wav
           C2: configs/resources/audio/JP/15min/newGT_phoneme_9_gen.wav
-          C3: configs/resources/audio/JP/1h/newGT_phoneme_9_gen.wav
+          C3: configs/resources/audio/JP/1h/newGT_phoneme_9_gen2.wav
     - type: mushra
       id: trial_random_10
       name: I. Япон  + Монгол 15мин, 30мин, 60мин
       content: 10. Өнөө маргаашдаа нутгийн зүүн хагаст салхи шуургатай, хүйтэн байхыг онцгойлон анхааруулж байна.
       enableLooping: true 
-      reference: configs/resources/audio/GT/S8-MTG.wav
+      reference: configs/resources/audio/GT/S8-MTG2.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/JP/30min/newGT_phoneme_8_gen.wav
+          C1: configs/resources/audio/JP/30min/newGT_phoneme_8_gen2.wav
           C2: configs/resources/audio/JP/15min/newGT_phoneme_8_gen.wav
-          C3: configs/resources/audio/JP/1h/newGT_phoneme_8_gen.wav 
+          C3: configs/resources/audio/JP/1h/newGT_phoneme_8_gen2.wav 
     - type: mushra
       id: trial_random_11
       name: I. Орос  + Монгол 15мин, 30мин, 60мин
@@ -153,8 +153,8 @@ pages:
       createAnchor70: false
       stimuli:
           C1: configs/resources/audio/RU/30min/newGT_phoneme_12_gen.wav
-          C2: configs/resources/audio/RU/15min/newGT_phoneme_12_gen.wav
-          C3: configs/resources/audio/RU/1h/newGT_phoneme_12_gen.wav
+          C2: configs/resources/audio/RU/15min/newGT_phoneme_12_gen2.wav
+          C3: configs/resources/audio/RU/1h/newGT_phoneme_12_gen2.wav
     - type: mushra
       id: trial_random_13
       name: I. Орос  + Монгол 15мин, 30мин, 60мин
@@ -170,7 +170,7 @@ pages:
     - type: mushra
       id: trial_random_14
       name: I. Орос  + Монгол 15мин, 30мин, 60мин
-      content: 14. Мэргэжлийн боловсон хүчнээс гадна сайн дурын ажилтнуудын мэдлэг туршлага оролцоо ихээхэн хувь нэмэр оруулах юм. 
+      content: 14. Мэргэжлийн боловсон хүчнээс гадна сайн дурын ажилтнуудын мэдлэг туршлага оролцоо ихээхэн чухал  хувь нэмэр оруулах юм. 
       enableLooping: true 
       reference: configs/resources/audio/GT/S9-MTG2.wav
       createAnchor35: false
@@ -203,6 +203,7 @@ pages:
           C1: configs/resources/audio/EN/30min/newGT_phoneme_26_gen.wav
           C2: configs/resources/audio/RU/30min/newGT_phoneme_26_gen2.wav
           C3: configs/resources/audio/JP/30min/newGT_phoneme_26_gen2.wav
+          C4: configs/resources/audio/EN/15min/newGT_phoneme_26_gen2.wav
     - type: mushra
       id: trial_random_17
       name: IV. Англи, Орос, Япон + Монгол 30мин
@@ -215,6 +216,7 @@ pages:
           C1: configs/resources/audio/EN/30min/newGT_phoneme_4_gen.wav
           C2: configs/resources/audio/RU/30min/newGT_phoneme_4_gen2.wav
           C3: configs/resources/audio/JP/30min/newGT_phoneme_4_gen2.wav
+          C4: configs/resources/audio/JP/15min/newGT_phoneme_4_gen.wav
     - type: mushra
       id: trial_random_18
       name: IV. Англи, Орос, Япон + Монгол 30мин
@@ -224,9 +226,10 @@ pages:
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/EN/30min/newGT_phoneme_7_gen.wav
-          C2: configs/resources/audio/RU/30min/newGT_phoneme_7_gen.wav
-          C3: configs/resources/audio/JP/30min/newGT_phoneme_7_gen.wav
+          C1: configs/resources/audio/EN/30min/newGT_phoneme_7_gen2.wav
+          C2: configs/resources/audio/RU/30min/newGT_phoneme_7_gen2.wav
+          C3: configs/resources/audio/JP/30min/newGT_phoneme_7_gen2.wav
+          C4: configs/resources/audio/JP/15min/newGT_phoneme_7_gen.wav
     - type: mushra
       id: trial_random_19
       name: IV. Англи, Орос, Япон + Монгол 30мин
@@ -239,6 +242,7 @@ pages:
           C1: configs/resources/audio/EN/30min/newGT_phoneme_14_gen2.wav
           C2: configs/resources/audio/RU/30min/newGT_phoneme_14_gen2.wav
           C3: configs/resources/audio/JP/30min/newGT_phoneme_14_gen.wav
+          C4: configs/resources/audio/JP/15min/newGT_phoneme_14_gen.wav
     - type: mushra
       id: trial_random_20
       name: IV. Англи, Орос, Япон + Монгол 30мин
@@ -251,6 +255,7 @@ pages:
           C1: configs/resources/audio/EN/30min/newGT_phoneme_23_gen2.wav
           C2: configs/resources/audio/RU/30min/newGT_phoneme_23_gen2.wav
           C3: configs/resources/audio/JP/30min/newGT_phoneme_23_gen.wav
+          C4: configs/resources/audio/JP/15min/newGT_phoneme_23_gen2.wav
     - type: mushra
       id: trial_random_21
       name: V. Англи, Орос, Япон + Монгол 15мин
